@@ -1,0 +1,16 @@
+.env
+*.db
+memory.json
+__pycache__/
+.venv/
+.deer-flow/
+backend/src/channels/__pycache__/
+
+# DeerTick runtime state
+*.env
+*.db-shm
+*.db-wal
+*.pyc
+*.egg-info/
+.deer-tick-qmem.json
+uv.lock
